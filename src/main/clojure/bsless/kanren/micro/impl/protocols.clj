@@ -38,7 +38,10 @@
     f))
 
 (defprotocol IUnify
-  (-unify-terms [u v s]))
+  "Type based dispatch for terms unification.
+  Every term specifies how it can unify with other objects in a given
+  substitution."
+  (-unify-terms [u v s] "Unify `u` with `v` in substitution `s`."))
 
 (definterface ITreeTerm)
 
