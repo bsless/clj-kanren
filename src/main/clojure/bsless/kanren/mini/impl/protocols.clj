@@ -1,4 +1,4 @@
-(ns io.github.bsless.kanren.mini.impl.protocols)
+(ns bsless.kanren.mini.impl.protocols)
 
 (defprotocol IWalkTerm
   "Ad-hoc implementation of tree walk for various data structures.

@@ -1,4 +1,4 @@
-(ns io.github.bsless.kanren.micro.impl.util)
+(ns bsless.kanren.micro.impl.util)
 
 (set! *warn-on-reflection* true)
 

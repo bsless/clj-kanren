@@ -1,10 +1,10 @@
-(ns io.github.bsless.kanren.mini
+(ns bsless.kanren.mini
   (:require
-   [io.github.bsless.kanren.micro.impl.protocols
+   [bsless.kanren.micro.impl.protocols
     :as p
     :refer [-inc pull]]
-   [io.github.bsless.kanren.mini.impl.reify :as r]
-   [io.github.bsless.kanren.micro
+   [bsless.kanren.mini.impl.reify :as r]
+   [bsless.kanren.micro
     :as u
     :refer [=== -conj -disj call-fresh make-empty-state]]))
 

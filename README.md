@@ -14,15 +14,15 @@ The project is built for my learning and for future extension.
 Require core namespaces:
 
 ```clojure
-(require '[io.github.bsless.kanren.micro as uk]
-         '[io.github.bsless.kanren.mini as mk])
+(require '[bsless.kanren.micro as uk]
+         '[bsless.kanren.mini as mk])
 ```
 
 Require a substitution implementation:
 
 ```clojure
 (require 
-  '[io.github.bsless.kanren.micro.impl.substitution :as s])
+  '[bsless.kanren.micro.impl.substitution :as s])
 ```
 
 Set the empty substitution "factory":

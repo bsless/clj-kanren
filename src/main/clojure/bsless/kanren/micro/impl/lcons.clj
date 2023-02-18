@@ -1,10 +1,10 @@
-(ns io.github.bsless.kanren.micro.impl.lcons
+(ns bsless.kanren.micro.impl.lcons
   (:require
-   [io.github.bsless.kanren.micro.impl.lvar :as lvar :refer [lvar?]]
-   [io.github.bsless.kanren.micro.impl.protocols :as p]
-   [io.github.bsless.kanren.micro.impl.util :refer [-str]])
+   [bsless.kanren.micro.impl.lvar :as lvar :refer [lvar?]]
+   [bsless.kanren.micro.impl.protocols :as p]
+   [bsless.kanren.micro.impl.util :refer [-str]])
   (:import
-   (io.github.bsless.kanren.micro.impl.protocols ITreeTerm)
+   (bsless.kanren.micro.impl.protocols ITreeTerm)
    (clojure.lang IPersistentCollection)
    (java.io Writer)))
 

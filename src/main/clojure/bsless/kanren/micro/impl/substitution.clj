@@ -1,8 +1,8 @@
-(ns io.github.bsless.kanren.micro.impl.substitution
+(ns bsless.kanren.micro.impl.substitution
   "Use PersistentMap as substitution."
   (:require
-   [io.github.bsless.kanren.micro.impl.protocols :as p]
-   [io.github.bsless.kanren.micro.impl.lvar :refer [lvar?]])
+   [bsless.kanren.micro.impl.protocols :as p]
+   [bsless.kanren.micro.impl.lvar :refer [lvar?]])
   (:import
    (clojure.lang IPersistentMap)))
 

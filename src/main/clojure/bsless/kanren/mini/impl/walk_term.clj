@@ -1,10 +1,10 @@
-(ns io.github.bsless.kanren.mini.impl.walk-term
+(ns bsless.kanren.mini.impl.walk-term
   (:require
-   [io.github.bsless.kanren.micro.impl.lcons :refer [lcons lfirst lnext]]
-   [io.github.bsless.kanren.mini.impl.protocols
+   [bsless.kanren.micro.impl.lcons :refer [lcons lfirst lnext]]
+   [bsless.kanren.mini.impl.protocols
     :as p*])
   (:import
-   (io.github.bsless.kanren.micro.impl.lcons LCons)))
+   (bsless.kanren.micro.impl.lcons LCons)))
 
 (extend-protocol p*/IWalkTerm
 

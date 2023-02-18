@@ -1,6 +1,6 @@
-(ns io.github.bsless.kanren.micro.impl.choice
+(ns bsless.kanren.micro.impl.choice
   (:require
-   [io.github.bsless.kanren.micro.impl.protocols
+   [bsless.kanren.micro.impl.protocols
     :as p
     :refer [-bind -mplus -inc pull]]))
 

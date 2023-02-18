@@ -1,16 +1,16 @@
-(ns io.github.bsless.kanren.mini.impl.reify
+(ns bsless.kanren.mini.impl.reify
   (:require
-   [io.github.bsless.kanren.micro.impl.protocols
+   [bsless.kanren.micro.impl.protocols
     :as p]
-   [io.github.bsless.kanren.mini.impl.protocols
+   [bsless.kanren.mini.impl.protocols
     :as p*]
-   [io.github.bsless.kanren.micro.impl.lcons :refer [lfirst lnext]]
-   [io.github.bsless.kanren.micro.impl.util :refer [-str]]
-   [io.github.bsless.kanren.micro.impl.choice :refer [choice]]
-   [io.github.bsless.kanren.micro :as u])
+   [bsless.kanren.micro.impl.lcons :refer [lfirst lnext]]
+   [bsless.kanren.micro.impl.util :refer [-str]]
+   [bsless.kanren.micro.impl.choice :refer [choice]]
+   [bsless.kanren.micro :as u])
   (:import
-   (io.github.bsless.kanren.micro.impl.lcons LCons)
-   (io.github.bsless.kanren.micro.impl.lvar LVar)))
+   (bsless.kanren.micro.impl.lcons LCons)
+   (bsless.kanren.micro.impl.lvar LVar)))
 
 (def ^:const unbound-names-count 128)
 

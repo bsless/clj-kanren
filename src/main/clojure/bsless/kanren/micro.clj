@@ -1,11 +1,11 @@
-(ns io.github.bsless.kanren.micro
+(ns bsless.kanren.micro
   (:require
-   [io.github.bsless.kanren.micro.impl.protocols
+   [bsless.kanren.micro.impl.protocols
     :as p
     :refer [-bind -mplus -inc]]
-   [io.github.bsless.kanren.micro.impl.choice]
-   [io.github.bsless.kanren.micro.impl.lvar :as lvar]
-   [io.github.bsless.kanren.micro.impl.lcons :as lcons]))
+   [bsless.kanren.micro.impl.choice]
+   [bsless.kanren.micro.impl.lvar :as lvar]
+   [bsless.kanren.micro.impl.lcons :as lcons]))
 
 (defn lvar
   {:inline
@@ -65,7 +65,7 @@
 
 (comment
   (def empty-state {})
-  (require '[io.github.bsless.kanren.micro.impl.substitution])
+  (require '[bsless.kanren.micro.impl.substitution])
 
   (defn fives [x] (-disj (=== x 5) (fn [s] (fn [] ((fives x) s)))))
 

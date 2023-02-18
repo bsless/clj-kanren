@@ -1,7 +1,7 @@
-(ns io.github.bsless.kanren.micro.impl.lvar
+(ns bsless.kanren.micro.impl.lvar
   (:require
-   [io.github.bsless.kanren.micro.impl.protocols :as p]
-   [io.github.bsless.kanren.micro.impl.util :refer [-str]])
+   [bsless.kanren.micro.impl.protocols :as p]
+   [bsless.kanren.micro.impl.util :refer [-str]])
   (:import (java.io Writer)))
 
 (definterface IVar)

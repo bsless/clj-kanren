@@ -1,4 +1,4 @@
-(ns io.github.bsless.kanren.micro.impl.protocols)
+(ns bsless.kanren.micro.impl.protocols)
 
 (defprotocol IMPlus
   "Add two streams of results.
