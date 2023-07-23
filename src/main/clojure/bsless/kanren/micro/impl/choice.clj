@@ -5,6 +5,9 @@
     :refer [-bind -mplus -inc pull]]))
 
 (deftype Choice [a f]
+  Object
+  (toString [_] (str "<choice: " a ", ...>"))
+
   clojure.lang.ILookup
   (valAt [this k]
     (.valAt this k nil))
